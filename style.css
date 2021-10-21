@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #2b1e44;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+section {
+  background: #5b6125;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 3% 5%;
+  color: white;
+  font-size: 1.2em;
+}
+
+img {
+  border-radius: 100%;
+}
+
+span {
+  color: #ecfa6b;
+}
+
+a {
+  background: #e9c05b;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: #512575;
+  transition: all 0.5s;
+}
+
+#main {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.titleContainer {
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 728px) {
+  .titleContainer {
+    font-size: 0.8em;
+  }
+}
